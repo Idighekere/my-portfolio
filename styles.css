@@ -379,20 +379,19 @@ textarea::placeholder {
     font-family: Poppins, sans-serif;
 }
 
-input:focus {
+input:focus, textarea:focus {
     color: #9facfa;
     font-family: Poppins, sans-serif;
 }
+
 
 .message {
     background-color: #9facfa;
     padding: 12px;
     border-radius: 5px 0 0 5px;
     margin: auto;
-    height: 40px;
+    height: 39px;
 }
-
-
 
 form {
     background-color: #fff;
@@ -512,14 +511,9 @@ footer {
 }
 
 .scroll-to-top {
-  position: fixed;
+    position: fixed;
     bottom: 100px;
     right: 12px;
-   overflow: hidden;
-
-}
-.scroll-to-top:active {
-   top: calc(100% - 12rem);
 }
 
 .scroll-to-top a {
@@ -561,7 +555,7 @@ footer {
     .mobile-menu {
         position: fixed;
         bottom: 0px;
-        over-flow: hidden;
+        overflow: hidden;
         background-color: #ffffff;
         width: 100%;
         padding: 7px 0 0 0;
@@ -600,6 +594,7 @@ footer {
 
     section {
         min-height: 120vh;
+        padding: 1rem;
     }
 
     .about {
@@ -644,7 +639,7 @@ footer {
     form {
         display: grid;
         grid-template-rows: 1fr 1fr;
-        width: 250px;
+        width: 235px;
         margin: auto;
         justify-content: center;
     }
