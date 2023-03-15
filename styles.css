@@ -371,7 +371,7 @@ textarea {
     padding: 10px 40px 10px 5px;
     margin-left: 0px;
 }
-input::placeholder, text-area::placeholder {
+input::placeholder, textarea::placeholder {
     color: #9facfa;
     font-family: Poppins, sans-serif;
 }
