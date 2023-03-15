@@ -213,6 +213,7 @@ h3 {
     display: grid;
     grid-template-columns: 1fr auto;
     transition: 200ms;
+    width: fit-content;
     /* position: absolute;
             right: 250px;
             left: 250px;
@@ -540,9 +541,9 @@ footer {
     }
 
     .mobile-menu {
-        position: -webkit-sticky; /* Safari */
-  position: sticky;
+        position:fixed;
         bottom: 0px;
+        over-flow: hidden;
         background-color: #ffffff;
         width: 100%;
         padding: 7px 0 0 0;
@@ -608,7 +609,7 @@ footer {
     }
 
     .sk-container {
-        width: 300px;
+        width: 250px;
         height: 400px;
         padding: 30px;
         margin-top: 50px;
