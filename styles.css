@@ -512,12 +512,14 @@ footer {
 }
 
 .scroll-to-top {
-    position: -webkit-sticky;
-    position: sticky;
+  position: fixed;
     bottom: 100px;
     right: 12px;
    overflow: hidden;
 
+}
+.scroll-to-top:active {
+   top: calc(100% - 12rem);
 }
 
 .scroll-to-top a {
