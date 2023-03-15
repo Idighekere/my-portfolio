@@ -205,12 +205,13 @@ h3 {
     height: auto;
 }
 
-#about-img {
+#about-img, #about-img:hover {
     width: 300px;
     margin-right: 50px;
     object-fit: cover;
     border-radius: 150px;
 }
+
 
 .abt-img:hover {
     width :350px;
