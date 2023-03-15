@@ -370,11 +370,20 @@ textarea {
     border: 1px solid #9facfa;
     padding: 10px 40px 10px 5px;
     margin-left: 0px;
+    width: -webkit-fill-available;
 }
-input::placeholder, textarea::placeholder {
+
+input::placeholder,
+textarea::placeholder {
     color: #9facfa;
     font-family: Poppins, sans-serif;
 }
+
+input:focus {
+    color: #9facfa;
+    font-family: Poppins, sans-serif;
+}
+
 .message {
     background-color: #9facfa;
     padding: 12px;
