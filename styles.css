@@ -102,6 +102,7 @@ li {
 .p-p:hover,
 #about-img:hover {
     box-shadow: 2px 2px 5px #3a3636;
+    border-radius: 10px;
 }
 
 .abt-img {
@@ -151,6 +152,7 @@ h3 {
     font-size: 1em;
     box-shadow: 2px 2px 7px #4a5bf8;
     transition: 200ms;
+    font-family: poppins, sans-serif;
 }
 
 .abt-btn:hover {
@@ -207,7 +209,7 @@ h3 {
 }
 
 .abt-img:hover {
-    width 350px;
+    width :350px;
 }
 
 .abt-img {
@@ -613,6 +615,7 @@ footer {
     .prof-p-mobile {
         display: flex;
         justify-self: center;
+        margin-top: 30px;
     }
 
     .abt {
