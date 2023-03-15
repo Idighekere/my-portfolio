@@ -205,16 +205,18 @@ h3 {
     height: auto;
 }
 
-#about-img, #about-img:hover {
+#about-img {
     width: 300px;
     margin-right: 50px;
     object-fit: cover;
     border-radius: 150px;
 }
-
+#about-img:hover {
+    border-radius: 150px;
+}
 
 .abt-img:hover {
-    width :350px;
+    /* width :350px; */
 }
 
 .abt-img {
@@ -222,6 +224,7 @@ h3 {
     grid-template-columns: 1fr auto;
     transition: 200ms;
     width: fit-content;
+    border-radius: 12px;
     /* position: absolute;
             right: 250px;
             left: 250px;
