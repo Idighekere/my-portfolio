@@ -371,6 +371,7 @@ textarea {
     padding: 10px 40px 10px 5px;
     margin-left: 0px;
     width: -webkit-fill-available;
+        font-family: Poppins, sans-serif;
 }
 
 input::placeholder,
