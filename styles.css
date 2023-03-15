@@ -371,7 +371,7 @@ textarea {
     padding: 10px 40px 10px 5px;
     margin-left: 0px;
     width: -webkit-fill-available;
-        font-family: Poppins, sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 input::placeholder,
@@ -698,6 +698,9 @@ footer {
 input:focus  {
     width: 200px;
     transition: 200ms;
+}
+input, textarea {
+    width: 175px;
 }
 }
 
