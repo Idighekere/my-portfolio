@@ -384,7 +384,9 @@ input:focus, textarea:focus {
     color: #9facfa;
     font-family: Poppins, sans-serif;
 }
-
+textarea{
+    width: 100%;
+}
 
 .message {
     background-color: #9facfa;
@@ -392,7 +394,7 @@ input:focus, textarea:focus {
     border-radius: 5px 0 0 5px;
     margin: auto;
     height: 39px;
-    width: 100%;
+  
 }
 
 form {
