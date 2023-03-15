@@ -16,7 +16,8 @@ body {
 
 header {
     background-color: #ffffff;
-    position: fixed;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -525,7 +526,8 @@ footer {
     }
 
     header {
-        position: fixed;
+         position: -webkit-sticky; /* Safari */
+  position: sticky;
         top: 0;
         left: 0;
         right: 0;
@@ -538,7 +540,8 @@ footer {
     }
 
     .mobile-menu {
-        position: fixed;
+        position: -webkit-sticky; /* Safari */
+  position: sticky;
         bottom: 0px;
         background-color: #ffffff;
         width: 100%;
@@ -622,7 +625,7 @@ footer {
     form {
         display: grid;
         grid-template-rows: 1fr 1fr;
-        width: 300px;
+        width: 250px;
         margin: auto;
         justify-content: center;
     }
@@ -671,6 +674,10 @@ footer {
     .social-icons {
         gap: 1em;
         display: flex;
+       
+    }
+     .skill-0 {
+         width: 100px;
     }
 
 }
