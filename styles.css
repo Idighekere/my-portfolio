@@ -392,6 +392,7 @@ input:focus, textarea:focus {
     border-radius: 5px 0 0 5px;
     margin: auto;
     height: 39px;
+    width: 100%;
 }
 
 form {
@@ -695,7 +696,7 @@ footer {
     .skill-0 {
         width: 100px;
     }
-input:focus  {
+input:focus, textarea:focus  {
     width: 200px;
     transition: 200ms;
 }
