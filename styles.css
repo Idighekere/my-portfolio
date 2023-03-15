@@ -356,6 +356,7 @@ h3 {
     transition: 200ms;
     color: #fff;
     cursor: pointer;
+    font-family: Poppins, sans-serif;
 }
 
 .send-btn:hover {
@@ -392,8 +393,8 @@ textarea{
     background-color: #9facfa;
     padding: 12px;
     border-radius: 5px 0 0 5px;
-    margin: auto;
-    height: 42px;
+    margin: 0;
+    height: 45px;
   
 }
 
