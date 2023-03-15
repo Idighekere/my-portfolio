@@ -16,8 +16,9 @@ body {
 
 header {
     background-color: #ffffff;
-    position: -webkit-sticky; /* Safari */
-  position: sticky;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -27,7 +28,7 @@ header {
 }
 
 img {
-    width: 100px
+    width: 150px;
 }
 
 .menu-links {
@@ -506,7 +507,7 @@ footer {
 }
 
 .scroll-to-top a {
-   background-color: #ffae00;
+    background-color: #ffae00;
     padding: 10px;
     color: #000;
     text-decoration: none;
@@ -527,8 +528,9 @@ footer {
     }
 
     header {
-         position: -webkit-sticky; /* Safari */
-  position: sticky;
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
         top: 0;
         left: 0;
         right: 0;
@@ -541,7 +543,7 @@ footer {
     }
 
     .mobile-menu {
-        position:fixed;
+        position: fixed;
         bottom: 0px;
         over-flow: hidden;
         background-color: #ffffff;
@@ -675,10 +677,11 @@ footer {
     .social-icons {
         gap: 1em;
         display: flex;
-       
+
     }
-     .skill-0 {
-         width: 100px;
+
+    .skill-0 {
+        width: 100px;
     }
 
 }
