@@ -420,6 +420,7 @@ form img {
 footer {
     background-color: #111517;
     min-height: auto;
+    margin-bottom: 0;
 
 }
 
@@ -503,12 +504,14 @@ footer {
 }
 
 .scroll-to-top a {
-    background-color: #ffae00;
-    padding: 25px;
+   background-color: #ffae00;
+    padding: 10px;
     color: #000;
     text-decoration: none;
-    border-radius: 50%;
-    width: 50px;
+    border-radius: 100%;
+    width: 35px;
+    display: grid;
+    justify-content: center;
 }
 
 #home:active {
