@@ -694,8 +694,9 @@ footer {
     .skill-0 {
         width: 100px;
     }
-input:focus, textarea:focus {
-    width: 150px;
+input:focus  {
+    width: 200px;
+    transition: 200ms;
 }
 }
 
