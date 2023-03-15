@@ -516,7 +516,7 @@ footer {
     position: sticky;
     bottom: 100px;
     right: 12px;
-    top: 90vh;
+   overflow: hidden;
 
 }
 
